@@ -239,11 +239,11 @@ img {
   margin-bottom: 72px;
 }
 
-.container-team {
-}
 .section-team {
   background-color: var(--light-backround);
   padding: 120px 0;
+}
+.container-team {
 }
 .desc-menu {
   font-size: 36px;
@@ -258,6 +258,10 @@ img {
   display: flex;
   gap: 24px;
 }
+.container-team-specialty {
+  padding: 32px 16px;
+  display: flex;
+}
 .images-photo {
   background: var(--header-backround);
   width: calc((100% - 72px) / 4);
@@ -270,6 +274,8 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--image-backround);
+  text-align: center;
+  margin-bottom: 8px;
 }
 .specialty {
   font-size: 16px;
@@ -277,6 +283,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text);
+  text-align: center;
 }
 
 /* FOOTER */
@@ -286,7 +293,7 @@ img {
   padding: 100px 0;
 }
 .closing a {
-  display: inline;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .paragraph-ft {
