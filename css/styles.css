@@ -55,10 +55,13 @@ img {
 .header {
   background-color: var(--header-backround);
 }
-.header .container {
+.header-container {
+  display: flex;
+  align-items: center;
 }
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .logo {
   font-weight: 800;
@@ -67,6 +70,8 @@ img {
   color: var(--pimary-brand);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 .logo:hover {
   color: var(--pressed-state);
@@ -78,11 +83,13 @@ img {
   color: var(--image-backround);
 }
 .header-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
 }
 .header-item {
 }
 .header-link {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -100,8 +107,20 @@ img {
 .header-address {
   margin-left: auto;
 }
-.header-adress-item {
+.header-address-list {
+  display: flex;
+  margin-left: auto;
+  gap: 40px;
 }
+/* .header-adress-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+} */
 .header-address-link {
   font-style: normal;
   font-size: 16px;
@@ -119,16 +138,24 @@ img {
 /* MAIN */
 
 .main-container {
-}
-.title-section {
   background: var(--image-backround);
+  display: flex;
+  flex-grow: 1;
 }
+/* .title-section {
+  background: var(--image-backround);
+  display: flex;
+  flex-grow: 1;
+} */
 .main-page-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--header-backround);
+  justify-content: center;
+  margin: 188px 472px 292px 472px;
+  max-width: 496px;
 }
 .btn-order {
   font-family: "Roboto", sans-serif;
@@ -177,7 +204,8 @@ img {
 }
 
 .section-team {
-  background: var(--light-backround);
+  background-color: var(--light-backround);
+  flex-grow: 1;
 }
 .desc-menu {
   font-size: 36px;
