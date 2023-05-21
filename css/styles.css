@@ -222,6 +222,10 @@ img {
 
 /* MAIN PORTFOLIO */
 
+.portfolio-page {
+}
+.porfolio-list {
+}
 .main-menu-one {
   font-family: "Roboto", sans-serif;
   background: var(--light-backround);
@@ -236,17 +240,19 @@ img {
 .main-menu-one:hover {
   color: var(--header-backround);
 }
-
 .main-menu-one:focus {
   color: var(--header-backround);
 }
-
 .main-menu-one:hover {
   background-color: var(--pressed-state);
 }
-
 .main-menu-one:focus {
   background-color: var(--pressed-state);
+}
+
+.porfolio-img-list {
+}
+.porfolio-img-link {
 }
 
 .link-address {
@@ -258,15 +264,12 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: var(--image-backround);
 }
-
 .subtitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
   color: var(--text);
 }
