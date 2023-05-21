@@ -18,7 +18,6 @@ body {
 .list {
   list-style: none;
 }
-
 .link {
   text-decoration: none;
 }
@@ -53,33 +52,23 @@ img {
 
 /* HEADER */
 
-.benefits {
+.header {
   background-color: var(--header-backround);
 }
-.benefits .container {
-  display: flex;
-  align-items: center;
+.header .container {
 }
-.navigation {
+.header-nav {
   display: flex;
 }
-.list {
-  display: flex;
-  gap: 40px;
-  margin-left: 86px;
-  margin-right: px;
-}
-.logo-link {
+.logo {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   color: var(--pimary-brand);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: flex;
-  align-items: center;
 }
-.logo-link:hover {
+.logo:hover {
   color: var(--pressed-state);
 }
 .logo-studio {
@@ -87,10 +76,12 @@ img {
 }
 .logo-studio-link {
   color: var(--image-backround);
-  display: flex;
-  align-items: center;
 }
-.link-menu {
+.header-list {
+}
+.header-item {
+}
+.header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -100,20 +91,38 @@ img {
   padding-bottom: 24px;
   padding-top: 24px;
 }
-
-.link-menu:hover {
+.header-link:hover {
   color: var(--pressed-state);
 }
-.link-menu:focus {
+.header-link:focus {
+  color: var(--pressed-state);
+}
+.header-address {
+  margin-left: auto;
+}
+.header-adress-item {
+}
+.header-address-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  letter-spacing: 0.02em;
+}
+.header-address-link:hover {
+  color: var(--pressed-state);
+}
+.header-address-link:focus {
   color: var(--pressed-state);
 }
 
 /* MAIN */
 
+.main-container {
+}
 .title-section {
   background: var(--image-backround);
 }
-
 .main-page-title {
   font-size: 56px;
   line-height: 1.07;
@@ -121,50 +130,30 @@ img {
   letter-spacing: 0.02em;
   color: var(--header-backround);
 }
-
 .btn-order {
   font-family: "Roboto", sans-serif;
   background: var(--pimary-brand);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.04em;
   color: var(--header-backround);
-
   cursor: pointer;
 }
-
 .btn-order:hover {
   background-color: var(--pressed-state);
 }
-
 .btn-order:focus {
   background-color: var(--pressed-state);
-}
-
-.link-information {
-  font-style: normal;
-
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--text);
-
-  letter-spacing: 0.02em;
-}
-
-.link-information:hover {
-  color: var(--pressed-state);
-}
-
-.link-information:focus {
-  color: var(--pressed-state);
 }
 
 .information {
   background: var(--header-backround);
 }
-
+.main-list {
+}
+.main-item {
+}
 .title-menu {
   font-weight: 500;
   font-size: 20px;
@@ -172,18 +161,15 @@ img {
   letter-spacing: 0.02em;
   color: var(--image-backround);
 }
-
 .paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
 }
-
 .subtitle-main-page {
   font-size: 36px;
   line-height: 1.11;
-
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -193,33 +179,27 @@ img {
 .section-team {
   background: var(--light-backround);
 }
-
 .desc-menu {
   font-size: 36px;
   line-height: 1.11;
-
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
   color: var(--image-backround);
 }
-
+.section-team-list {
+}
 .images-photo {
   background: var(--header-backround);
 }
-
 .name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-
   text-align: center;
   letter-spacing: 0.02em;
-
   color: var(--image-backround);
 }
-
 .specialty {
   font-size: 16px;
   line-height: 1.5;
@@ -233,7 +213,6 @@ img {
 .closing {
   background: var(--image-backround);
 }
-
 .paragraph-ft {
   font-size: 16px;
   line-height: 1.5;
