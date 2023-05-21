@@ -258,16 +258,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.first-person {
-  padding: 32px 16px;
-}
-.second-person {
-  padding: 32px 16px;
-}
-.third-person {
-  padding: 32px 16px;
-}
-.fourth-person {
+.name-specialty {
   padding: 32px 16px;
 }
 
