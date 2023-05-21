@@ -21,6 +21,18 @@ body {
 .link {
   text-decoration: none;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 p,
 h1,
@@ -176,17 +188,18 @@ img {
   background-color: var(--pressed-state);
 }
 
-.information-container {
-}
 .information {
   background: var(--header-backround);
   padding: 120px 0;
 }
+.information-container {
+}
 .main-list {
+  display: flex;
   gap: 24px;
 }
 .main-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .title-menu {
   font-weight: 500;
@@ -203,11 +216,12 @@ img {
   color: var(--text);
 }
 
-.container-img {
-}
 .section-img {
   padding-bottom: 120px;
 }
+.container-img {
+}
+
 .subtitle-list {
   display: flex;
   gap: 24px;
@@ -269,12 +283,18 @@ img {
 
 .closing {
   background: var(--image-backround);
+  padding: 100px 0;
+}
+.closing a {
+  display: inline;
+  margin-bottom: 16px;
 }
 .paragraph-ft {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-backround);
+  max-width: 264px;
 }
 
 /* MAIN PORTFOLIO */
