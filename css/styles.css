@@ -15,6 +15,13 @@ body {
   background: var(--header-backround);
   color: var(--text);
 }
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
 
 p,
 h1,
@@ -36,49 +43,62 @@ img {
   display: block;
 }
 
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
+.container {
+  outline: 1px solid red;
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
 
 /* HEADER */
 
+.benefits {
+  background-color: var(--header-backround);
+}
+.benefits .container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
+.list {
+  display: flex;
+  gap: 40px;
+  margin-left: 86px;
+  margin-right: px;
+}
 .logo-link {
-  font-family: "Raleway", sans-serif;
-
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   color: var(--pimary-brand);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 .logo-link:hover {
   color: var(--pressed-state);
 }
-
 .logo-studio {
-  font-family: "Raleway", sans-serif;
-
-  align-items: center;
-
   color: var(--light-backround);
 }
 .logo-studio-link {
   color: var(--image-backround);
+  display: flex;
+  align-items: center;
 }
-
 .link-menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-
   color: var(--image-backround);
+  display: inline-block;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .link-menu:hover {
