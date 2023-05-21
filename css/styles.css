@@ -225,12 +225,10 @@ img {
 .main-menu-one {
   font-family: "Roboto", sans-serif;
   background: var(--light-backround);
-
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.04em;
   color: var(--pimary-brand);
   cursor: pointer;
