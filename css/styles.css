@@ -54,6 +54,7 @@ img {
 
 .header {
   background-color: var(--header-backround);
+  outline: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
@@ -72,6 +73,7 @@ img {
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  margin-right: 76px;
 }
 .logo:hover {
   color: var(--pressed-state);
@@ -138,23 +140,17 @@ img {
 /* MAIN */
 
 .main-container {
-  background: var(--image-backround);
-  display: flex;
-  flex-grow: 1;
 }
-/* .title-section {
+.title-section {
   background: var(--image-backround);
-  display: flex;
-  flex-grow: 1;
-} */
+  padding: 188px 0;
+}
 .main-page-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--header-backround);
-  justify-content: center;
-  margin: 188px 472px 292px 472px;
   max-width: 496px;
 }
 .btn-order {
@@ -166,6 +162,12 @@ img {
   letter-spacing: 0.04em;
   color: var(--header-backround);
   cursor: pointer;
+  display: block;
+  margin: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .btn-order:hover {
   background-color: var(--pressed-state);
@@ -174,12 +176,17 @@ img {
   background-color: var(--pressed-state);
 }
 
+.information-container {
+}
 .information {
   background: var(--header-backround);
+  padding: 120px 0;
 }
 .main-list {
+  gap: 24px;
 }
 .main-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .title-menu {
   font-weight: 500;
@@ -187,12 +194,26 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--image-backround);
+  margin-bottom: 8px;
 }
 .paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+}
+
+.container-img {
+}
+.section-img {
+  padding-bottom: 120px;
+}
+.subtitle-list {
+  display: flex;
+  gap: 24px;
+}
+.subtitle-item {
+  width: calc((100% - 48px) / 3);
 }
 .subtitle-main-page {
   font-size: 36px;
@@ -201,11 +222,14 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--image-backround);
+  margin-bottom: 72px;
 }
 
+.container-team {
+}
 .section-team {
   background-color: var(--light-backround);
-  flex-grow: 1;
+  padding: 120px 0;
 }
 .desc-menu {
   font-size: 36px;
@@ -214,11 +238,16 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--image-backround);
+  margin-bottom: 72px;
 }
 .section-team-list {
+  display: flex;
+  gap: 24px;
 }
 .images-photo {
   background: var(--header-backround);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .name {
   font-weight: 500;
