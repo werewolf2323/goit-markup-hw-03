@@ -258,14 +258,23 @@ img {
   display: flex;
   gap: 24px;
 }
-.container-team-specialty {
+.first-person {
   padding: 32px 16px;
-  display: flex;
 }
+.second-person {
+  padding: 32px 16px;
+}
+.third-person {
+  padding: 32px 16px;
+}
+.fourth-person {
+  padding: 32px 16px;
+}
+
 .images-photo {
   background: var(--header-backround);
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
+  border-top-left-radius: 0px;
 }
 .name {
   font-weight: 500;
