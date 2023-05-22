@@ -55,7 +55,7 @@ img {
 }
 
 .container {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
@@ -361,6 +361,7 @@ img {
 .container-link {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .link-address {
   font-style: normal;
@@ -371,6 +372,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--image-backround);
+  margin-bottom: 8px;
 }
 .subtitle {
   font-weight: 400;
