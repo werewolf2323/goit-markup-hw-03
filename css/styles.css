@@ -55,7 +55,7 @@ img {
 }
 
 .container {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
@@ -313,11 +313,18 @@ img {
 /* MAIN PORTFOLIO */
 
 .portfolio-page {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
-.porfolio-list {
+.portfolio-container {
 }
-.main-menu-one {
-  font-family: "Roboto", sans-serif;
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.portfolio-btn {
   background: var(--light-backround);
   border-radius: 4px;
   font-weight: 500;
@@ -326,29 +333,38 @@ img {
   letter-spacing: 0.04em;
   color: var(--pimary-brand);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
 }
-.main-menu-one:hover {
+.portfolio-btn:hover {
   color: var(--header-backround);
+  background-color: var(--pressed-state);
+  border: 1px solid transparent;
 }
-.main-menu-one:focus {
+.portfolio-btn:focus {
   color: var(--header-backround);
-}
-.main-menu-one:hover {
   background-color: var(--pressed-state);
-}
-.main-menu-one:focus {
-  background-color: var(--pressed-state);
+  border: 1px solid transparent;
 }
 
-.porfolio-img-list {
+.portfolio-img-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
-.porfolio-img-link {
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
 }
-
+.portfolio-img-link {
+}
+.container-link {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
 .link-address {
   font-style: normal;
 }
-
 .title {
   font-weight: 500;
   font-size: 20px;
