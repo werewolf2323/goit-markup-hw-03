@@ -78,12 +78,13 @@ img {
   align-items: center;
 }
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--pimary-brand);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--pimary-brand);
   display: flex;
   align-items: center;
   margin-right: 76px;
@@ -100,7 +101,7 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
+  /* margin-left: 76px; */
 }
 .header-item {
 }
